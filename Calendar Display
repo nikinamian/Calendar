@@ -1,0 +1,14 @@
+#Calendar
+
+
+#import the calendar
+import calendar
+
+#get input for year
+year = int(input("What year would you like to see: "))
+
+#get input for month
+mon = int(input("What month would you like to see: "))
+
+#print the calendar based on user input
+print(calendar.month(year,mon))
